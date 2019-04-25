@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2E0255227210B100C4A1BF /* Gecco.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 467D205D1C48883C0033D5CA /* Gecco.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		467D20681C48883C0033D5CA /* Gecco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467D205D1C48883C0033D5CA /* Gecco.framework */; };
 		46C6AE2F1C4DF9AF004AAE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C6AE1A1C4DF9A8004AAE2F /* AppDelegate.swift */; };
 		46C6AE301C4DF9BB004AAE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C6AE1B1C4DF9A8004AAE2F /* Assets.xcassets */; };
@@ -31,6 +32,19 @@
 			remoteInfo = Spot;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D2E02542272109B00C4A1BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2D2E0255227210B100C4A1BF /* Gecco.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		467D205D1C48883C0033D5CA /* Gecco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gecco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,6 +212,7 @@
 				467D207D1C488C920033D5CA /* Sources */,
 				467D207E1C488C920033D5CA /* Frameworks */,
 				467D207F1C488C920033D5CA /* Resources */,
+				2D2E02542272109B00C4A1BF /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -525,7 +540,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yukiasai.GeccoExample;
 				PRODUCT_NAME = GeccoExample;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -537,7 +552,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yukiasai.GeccoExample;
 				PRODUCT_NAME = GeccoExample;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
